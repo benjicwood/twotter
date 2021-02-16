@@ -1,0 +1,25 @@
+<template>
+  <UserProfile />
+</template>
+
+<script>
+import UserProfile from './components/UserProfile';
+
+export default {
+  name: 'App',
+  components: {
+    UserProfile,
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+</style>
